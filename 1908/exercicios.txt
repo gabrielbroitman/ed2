@@ -1,0 +1,24 @@
+EX1: Construa um algortimo que inverta um vetor de N posições, sem usar vetor auxiliar. (N)
+
+inverte_vetor(*vetor, n): vetor {
+
+	for (i=0; i < n/2;i++) {
+		aux = vetor[i]
+		vetor[i] = vetor[n-i]
+		vetor[n-i] = aux
+	}
+}
+
+EX2: Avalie um algortimo que soma ,matriz A e B em uma matriz C. (N²)
+
+soma_matrizes (matriz1, matriz2, n) {
+
+	matriz[n][n] = novaMatriz;
+	for(i=0;i < n;i++) {
+		for(j=0;j < n;j++) {
+			novaMatriz[i][j] = matriz1[i][j] + matriz2[i][j]						
+		}
+	}
+}
+
+
