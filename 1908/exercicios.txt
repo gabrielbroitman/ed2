@@ -37,6 +37,19 @@ mulyiplica_matrizes (matriz1, matriz2, n) {
 
 EX4: Considere a existência de duas listas encadeadas, L1 e L2.  
 Avalie a complexidade para o pior caso que percorre a lista L1 e imprime a informação de cada nó, desde que essa
-informação esteja em algum no de L2.
+informação esteja em algum nó de L2.
+OBS:
+- Considere que as listas não estão ordenadas.
+- Considere que as duas listas possuem no máximo N nós.
+
+printa_lista(l1, l2) {
+	
+	for(i=l1;l1 != null;l1 = l1->prox){
+		for(l2;l2 != null;l2->prox) {
+			if (l1->info = l2-> info)
+				print.ln(l1->info);
+		}	
+	}
+}
 
 
