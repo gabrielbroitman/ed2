@@ -21,4 +21,18 @@ soma_matrizes (matriz1, matriz2, n) {
 	}
 }
 
+EX3: Avalie um algortimo que multiplica matriz A e B em uma matriz C. (N³)
+
+mulyiplica_matrizes (matriz1, matriz2, n) {
+
+	for(i=0;i < n;i++) {
+		for(j=0;j < n;j++) {
+			novaMatriz[i][j] = 0
+			for(k=0;k < n;k++) {
+				novaMatriz[i][j] = novaMatriz[i][j] + (matriz1[i][k] * matriz2[k][j]) 
+			}				
+		}
+	}
+}
+
 
