@@ -35,4 +35,8 @@ mulyiplica_matrizes (matriz1, matriz2, n) {
 	}
 }
 
+EX4: Considere a existência de duas listas encadeadas, L1 e L2.  
+Avalie a complexidade para o pior caso que percorre a lista L1 e imprime a informação de cada nó, desde que essa
+informação esteja em algum no de L2.
+
 
